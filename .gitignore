@@ -31,6 +31,7 @@
 *.out
 *.app
 
+# Xcode/Mac ignore files.
 # explanation for all these:
 # https://stackoverflow.com/questions/49478/git-ignore-file-for-xcode-projects
 #
@@ -55,3 +56,25 @@ xcuserdata/
 *.moved-aside
 # merge creates these backup files
 *.orig
+
+##### Windows
+# Windows thumbnail cache files
+Thumbs.db
+ehthumbs.db
+ehthumbs_vista.db
+
+# Dump file
+*.stackdump
+
+# Folder config file
+[Dd]esktop.ini
+
+# Recycle Bin used on file shares
+$RECYCLE.BIN/
+
+# Windows Installer files
+*.cab
+*.msi
+*.msix
+*.msm
+*.msp
