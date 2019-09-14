@@ -1,0 +1,57 @@
+# Prerequisites
+*.d
+
+# Compiled Object files
+*.slo
+*.lo
+*.o
+*.obj
+
+# Precompiled Headers
+*.gch
+*.pch
+
+# Compiled Dynamic libraries
+*.so
+*.dylib
+*.dll
+
+# Fortran module files
+*.mod
+*.smod
+
+# Compiled Static libraries
+*.lai
+*.la
+*.a
+*.lib
+
+# Executables
+*.exe
+*.out
+*.app
+
+# explanation for all these:
+# https://stackoverflow.com/questions/49478/git-ignore-file-for-xcode-projects
+#
+# note: comments must be on their own lines:
+# https://stackoverflow.com/questions/8865848/comments-in-gitignore#comment16345310_8865858
+.DS_Store
+.Trashes
+*.swp
+DerivedData/
+# changed from build/ to prevent ignoring Carthage/Build
+/Build/
+*.mode1v3
+*.mode2v3
+*.perspectivev3
+*.pbxuser
+!default.pbxuser
+!default.mode1v3
+!default.mode2v3
+!default.perspectivev3
+*.xccheckout
+xcuserdata/
+*.moved-aside
+# merge creates these backup files
+*.orig
